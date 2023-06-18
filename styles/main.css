@@ -86,7 +86,6 @@
 .skills__hobies-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .skills__hobies-container article{
@@ -94,10 +93,11 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 160px;
+    width: 145px;
     min-height: 118px;
     background-color: #FFFFFF;
     margin-bottom: 10px;
+    margin-right: 10px;
     padding: 15px 15px;
 }
 
@@ -110,4 +110,37 @@
 
 .Hobies article img{
     width: 28px;
+}
+
+.formacionAcademica{
+    background-color: #EAF2FD;
+    padding: 10px 10px;
+}
+
+.formacionAcademica h2:nth-child(1){
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #464646;
+}
+
+.formacionAcademica article{
+    width: 80%;
+    background-color: #FFFFFF;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.formacionAcademica .formacion__nombre{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
