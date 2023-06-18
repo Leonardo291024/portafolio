@@ -3,20 +3,21 @@
     align-items: flex-end;
     justify-content: space-between;
     padding: 10px 10px;
-    background-color: #2B2B2B;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid black;
 }
 
 .cabezera__nombre{
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.8rem;
-    color: whitesmoke;
+    color: #464646;
 }
 
 .cabezera__email{
     font-weight: 700;
     font-size: 1.0rem;
     line-height: 1.8rem;
-    color: #868686;
+    color: #464646;
     text-decoration: none;
 }
