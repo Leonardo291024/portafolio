@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/receset.css">
     <link rel="stylesheet" href="./styles/cabezera.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Kraken_Code</title>
 </head>
 <body>
@@ -132,8 +133,31 @@
                 </div>
             </article>
         </section>
+
+        <section class="contacto">
+            <h1>Contacto</h1>
+            <p>
+                ¿Quieres contactarme?
+                Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.
+            </p>
+
+            <form action="/enviar-mensaje" method="POST">
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre"><br><br>
+            
+                <input type="email" id="email" name="email" required placeholder="email"><br><br>
+            
+                <input type="text" id="asunto" name="asunto" required placeholder="Asunto"><br><br>
+            
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Mensaje"></textarea><br><br>
+            
+                <input type="submit" value="Enviar mensaje" class="button__enviar">
+              </form>
+        </section>
    </main>
-   
-   </section>
+
+   <footer>
+        <p>Desarrollado por Leonardo Diaz</p>
+        <p>2023</p>
+   </footer>
 </body>
 </html>

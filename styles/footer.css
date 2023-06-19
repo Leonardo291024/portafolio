@@ -1,0 +1,14 @@
+footer{
+    background-color: #FFFFFF;
+    height: 50px;
+    text-align: center;
+
+}
+
+footer p{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+    padding-bottom: 10px;
+}
