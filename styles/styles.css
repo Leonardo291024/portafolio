@@ -168,15 +168,23 @@ html{
     font-weight: 700;
     font-size: 22px;
     line-height: 25px;
+    margin-bottom: 22px;
     color: #464646;
+}
+
+.formacionAcademica .container__formaciones{
+    display: flex;
+    flex-direction: column;
 }
 
 .formacionAcademica article{
     width: 80%;
+    max-width: 220px;
     background-color: #FFFFFF;
     height: 100px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
@@ -188,7 +196,6 @@ html{
     font-size: 16px;
     line-height: 18px;
     color: #464646;
-    margin-left: 30px;
     margin-bottom: 10px;
 }
 

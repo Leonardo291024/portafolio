@@ -23,3 +23,8 @@
 .skills__hobies-container article{
     width: 25%;
 }
+
+.formacionAcademica .container__formaciones{
+    display: flex;
+    flex-direction: row;
+}
