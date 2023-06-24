@@ -211,6 +211,8 @@ html{
 
 .experiencia article{
     width: 80%;
+    max-width: 520px;
+    background-color: #EAF2FD;
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 5px 5px;
