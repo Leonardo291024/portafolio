@@ -42,13 +42,14 @@ html{
 .baner .container__img-perfil{
     width: 100%;
     padding-top: 20px;
-    background-image: url(../assets/codigoBanner.jpg);
+   /* background-image: url(../assets/codigoBanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 }
 
 .img__perfil{
+    max-width: 220px;
     border-radius: 50%;
     width: 40%;
     margin-left: 10px;

@@ -1,0 +1,13 @@
+.container__img-perfil{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.img__perfil {
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 10px
+}
