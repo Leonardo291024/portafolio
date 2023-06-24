@@ -1,24 +1,31 @@
 .baner{
     background-color: #E5E5E5;
-    padding: 10px 10px;
     box-sizing: border-box;
 }
 
 .baner .container__img-perfil{
     width: 100%;
     padding-top: 20px;
-    background-color: #464646;
+    background-image: url(/assets/codigo-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .img__perfil{
     border-radius: 50%;
     width: 40%;
+    margin-left: 10px;
+}
+
+.presentacion{
+    padding: 10px 10px;
 }
 
 .presentacion__nombre{
     font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
+    font-size: 22px;
+    line-height: 25px;
     color: #464646;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -26,8 +33,8 @@
 
 .presentacion__formacion{
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 14px;
+    line-height: 16px;
     color: #464646;
     margin-bottom: 10px;
 }
@@ -44,7 +51,7 @@
 .container__redes li a{
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.3rem;
-    line-height: 1.6rem;
+    font-size: 13px;
+    line-height: 16px;
     color: #464646;
 }

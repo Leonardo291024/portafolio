@@ -1,7 +1,8 @@
 .cabezera{
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
+    align-items: center;
+    height: 50px;
     padding: 10px 10px;
     background-color: #E5E5E5;
     border-bottom: 1px solid black;
@@ -9,15 +10,15 @@
 
 .cabezera__nombre{
     font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 16px;
+    line-height: 18px;
     color: #464646;
 }
 
 .cabezera__email{
     font-weight: 700;
-    font-size: 1.0rem;
-    line-height: 1.8rem;
+    font-size: 10px;
+    line-height: 18px;
     color: #464646;
     text-decoration: none;
 }
