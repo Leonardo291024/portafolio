@@ -12,12 +12,36 @@
     margin-left: 10px
 }
 
+.presentacion__nombre{
+    font-size: 25px;
+}
+
+.presentacion__formacion{
+    font-size: 17px;
+}
+
+.container__redes li a{
+    font-size: 16px;
+}
+
 .sobreMi{
     padding: 30px 30px;
 }
 
+.sobreMi h2{
+    font-size: 25px;
+}
+
+.sobreMi p{
+    font-size: 16px;
+}
+
 .skills__hobies-container{
     justify-content: space-around;
+}
+
+.skills__hobies h2{
+    font-size: 25px;
 }
 
 .skills__hobies-container article{
