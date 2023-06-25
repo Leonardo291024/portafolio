@@ -50,3 +50,7 @@
 .container__redes li a:hover{
     text-decoration: underline red;
 }
+
+.sobreMi{
+    padding: 64px 64px;
+}
