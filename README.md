@@ -3,7 +3,7 @@
 **Desarrollado por Leonardo Diaz Desarrollador web Front End**
 **Este portafolio es parte del desafio Challenge Front End de #AluraLatam y #OracleNextEducation**
 
-**Por ahora este sitio web solo se encuentra para la version Mobile. Se esta trabajando para los distintos dispositivos**
+**Es un sitio web responsivo se encuentra disponible para mobil tablet y computadoras**
 
 **Haz click en el siguiente enlace para acceder al sitio web**
 
