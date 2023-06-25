@@ -10,25 +10,32 @@ function validarFormulario(){
 
     if(inputNombre === ""){
         alert("proporciona un nombre");
-        
+        return;
+    }
+
+    if(inputNombre.length > 50){
+        alert("el campo debe tener maximo 50 caracteres");
+        return;
     }
 
     if(inputEmail === ""){
         alert("agrega un email");
-      
+        return;
     }
 
     if(inputAsunto === ""){
         alert("Escribe un asunto");
-      
+        return;
     }
 
     if(textMensaje === ""){
         alert("Escribe un mensaje para ponerme en contacto contigo");
-        return;
+        
+    }else{
+        alert("mensaje enviado")
     }
 
-    alert("mensaje enviado")
+    
    
     
 }
