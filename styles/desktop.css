@@ -1,0 +1,29 @@
+.cabezera__nombre{
+    font-size: 24px;
+}
+
+.cabezera__email{
+    display: none;
+}
+
+.menu__header{
+    display: flex;
+}
+
+.menu__header li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu__header li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #464646;
+}
+
+.menu__header li a:hover{
+    text-decoration: overline red;
+}
