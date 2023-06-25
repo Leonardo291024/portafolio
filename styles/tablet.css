@@ -1,3 +1,7 @@
+.menu__header{
+    display: none;
+}
+
 .container__img-perfil{
     width: 100%;
     padding: 10px 10px;

@@ -34,6 +34,10 @@ html{
     text-decoration: none;
 }
 
+.menu__header{
+    display: none;
+}
+
 .baner{
     background-color: #E5E5E5;
     box-sizing: border-box;
@@ -210,6 +214,11 @@ html{
     color: #464646;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.experiencia .container__article-experiencia{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .experiencia article{

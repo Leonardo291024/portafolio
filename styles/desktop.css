@@ -54,3 +54,7 @@
 .sobreMi{
     padding: 64px 64px;
 }
+
+.contacto form{
+    width: 50%;
+}
