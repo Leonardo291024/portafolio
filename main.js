@@ -8,6 +8,8 @@ function validarFormulario(){
     const inputAsunto = document.getElementById('asunto').value;
     const textMensaje = document.getElementById('mensaje').value;
 
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if(inputNombre === ""){
         alert("proporciona un nombre");
         return;
@@ -21,6 +23,11 @@ function validarFormulario(){
     if(inputEmail === ""){
         alert("agrega un email");
         return;
+    }
+
+    if(!emailPattern.test(inputEmail)){
+        alert("ingrese un email valido");
+        return false;
     }
 
     if(inputAsunto === ""){
