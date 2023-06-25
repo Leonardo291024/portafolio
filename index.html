@@ -164,12 +164,16 @@
             </p>
 
             <form action="/enviar-mensaje" method="POST">
+                <div id="error__nombre" style="color: red;"></div>
                 <input type="text" id="nombre" maxlength="50" name="nombre" required placeholder="Nombre"><br><br>
-            
+                
+                <div id="error__email" style="color: red;"></div>
                 <input type="email" id="email" name="email" required placeholder="texto@texto.com"><br><br>
-            
+                
+                <div id="error__asunto" style="color: red;"></div>
                 <input type="text" id="asunto" maxlength="50" name="asunto" required placeholder="Asunto"><br><br>
-            
+                
+                <div id="error__mensaje" style="color: red;"></div>
                 <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Mensaje"></textarea><br><br>
             
                 <input type="button" value="Enviar mensaje" maxlength="300" class="button__enviar" id="enviar__mensaje">

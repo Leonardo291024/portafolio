@@ -4,15 +4,21 @@ btnEnviar.addEventListener('click' ,validarFormulario);
 
 function validarFormulario(){
     const inputNombre = document.getElementById('nombre').value;
+    const divErrorNombre = document.getElementById('error__nombre');
     const inputEmail = document.getElementById('email').value;
+    const divErrorEmail = document.getElementById('error__email');
     const inputAsunto = document.getElementById('asunto').value;
+    const divErrorAsunto = document.getElementById('error__asunto');
     const textMensaje = document.getElementById('mensaje').value;
+    const divErrorMensaje = document.getElementById('error__mensaje');
 
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if(inputNombre === ""){
-        alert("proporciona un nombre");
+        divErrorNombre.textContent = "el campo no puede estar vacio";
         return;
+    }else{
+        divErrorNombre.textContent = "";
     }
 
     if(inputNombre.length > 50){
@@ -21,25 +27,30 @@ function validarFormulario(){
     }
 
     if(inputEmail === ""){
-        alert("agrega un email");
+        divErrorEmail.textContent = "el campo no puede estar vacio";
         return;
+    }else{
+        divErrorEmail.textContent = "";
     }
 
     if(!emailPattern.test(inputEmail)){
         alert("ingrese un email valido");
-        return false;
-    }
-
-    if(inputAsunto === ""){
-        alert("Escribe un asunto");
         return;
     }
 
+    if(inputAsunto === ""){
+        divErrorAsunto.textContent = "el campo no puede estar vacio";
+        return;
+    }else{
+        divErrorAsunto.textContent = "";
+    }
+
     if(textMensaje === ""){
-        alert("Escribe un mensaje para ponerme en contacto contigo");
+       divErrorMensaje.textContent = "el campo no puede estar vacio";
         
     }else{
-        alert("mensaje enviado")
+        divErrorMensaje.textContent = "";
+        alert("mensaje enviado");
     }
 
     
