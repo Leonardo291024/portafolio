@@ -22,10 +22,13 @@
     font-weight: 700;
     line-height: 18px;
     color: #464646;
+    transition: 0.3s all;
 }
 
 .menu__header li a:hover{
-    text-decoration: overline red;
+    transform: scale(1.2);
+    text-decoration: underline;
+    font-size: 18px;
 }
 
 
@@ -47,7 +50,14 @@
     margin-right: 80px;
 }
 
+.container__redes li a{
+    transition: 0.3s all;
+}
+
 .container__redes li a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+    font-size: 18px;
     text-decoration: underline red;
 }
 
@@ -58,3 +68,14 @@
 .contacto form{
     width: 50%;
 }
+
+.contacto form .button__enviar{
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.contacto form .button__enviar:hover{
+    transform: scale(1.2);
+    background-color: #464646;
+}
+

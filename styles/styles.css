@@ -229,6 +229,12 @@ html{
     margin-bottom: 20px;
     padding: 5px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.experiencia article:hover{
+    transform: scale(1.2);
 }
 
 .experiencia article img{
