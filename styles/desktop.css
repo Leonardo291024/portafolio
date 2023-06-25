@@ -27,3 +27,26 @@
 .menu__header li a:hover{
     text-decoration: overline red;
 }
+
+
+.presentacion__nombre{
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.presentacion__formacion{
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.container__redes{
+    text-align: start;
+}
+
+.container__redes li{
+    margin-right: 80px;
+}
+
+.container__redes li a:hover{
+    text-decoration: underline red;
+}
